@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular_todo';
+  title = 'VKAutomate To Do app';
+
+  toggleAddTask() {
+    console.log('Toggled!')
+  }
 }
